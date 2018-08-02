@@ -4,6 +4,12 @@ class Foo(object):
 	#name = "peter"
 	__name = "peter"
 	
+	def __say(self):
+		print("__say")
+	
+	def say(self):
+		self.__say()
+		
 obj1 = Foo()
 #print(obj1.name)
 #print(obj1.__name)
@@ -15,3 +21,6 @@ obj1 = Foo()
 '''
 obj1.__name = "qqqq"
 print(obj1.__name)
+
+#obj1.__say()
+obj1.say()
