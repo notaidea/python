@@ -6,19 +6,16 @@ python本质上并不完全支持私有化，只不过是将名字进行改变�
 
 class Test(object):
 	__num = 0
-	
-	#__slots__里定义里的，不能和属性冲突
-	#__slots__ = ["__num"]
-	
+
 	def __init__(self):
 		self.__num = 100
-	
+
 	def setNum(self, num):
 		self.__num = num
-	
+
 	def getNum(self):
 		return self.__num
-		
+
 obj1 = Test()
 
 '''
