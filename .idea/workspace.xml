@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669a69b-e792-41a0-9ae7-9fbfa9847e6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibao.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/bibao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibao1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibao2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diedaiqi1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/diedaiqi1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/except.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/except.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-get.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/http-get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-post.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/http-post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ifforwhile.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/ifforwhile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/md5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/abstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/construtdestruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/construtdestruct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/getattribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/getattribute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/getattribute2.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/getattribute2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/jicheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/jicheng.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/override.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/override.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/parent.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/parent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/private.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/property.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/property.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/private.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property1.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/getter1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property2.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/getter2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shengchengqi1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/shengchengqi1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yield1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/yield1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yield2.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/yield2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhuangshiqioo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/oo_basic/zhuangshiqioo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,17 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bibao.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/bibao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +37,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/oo_basic/allattr.py" />
         <option value="$PROJECT_DIR$/basic/bibao.py" />
+        <option value="$PROJECT_DIR$/del1.py" />
       </list>
     </option>
   </component>
@@ -86,7 +47,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="2068" />
     <option name="height" value="2092" />
@@ -106,11 +67,6 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,8 +113,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1034" height="1046" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -166,8 +121,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44615385" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21618852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30098146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11466666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -190,6 +145,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/basic/zhuangshiqi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oo_basic/attr2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -218,19 +180,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo_basic/getattribute2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo_basic/getter1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/obj.py" />
     <entry file="file://$PROJECT_DIR$/oo_basic/getter2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -244,9 +194,6 @@
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo_basic/zhuangshiqioo1.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/except.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -290,31 +237,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/basic/bibao1.py" />
+    <entry file="file://$PROJECT_DIR$/basic/bibao2.py" />
+    <entry file="file://$PROJECT_DIR$/del1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/bibao1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="406">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/bibao2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/bibao.py">
+    <entry file="file://$PROJECT_DIR$/basic/zhuangshiqi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
