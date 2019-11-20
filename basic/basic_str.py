@@ -9,13 +9,13 @@ bbbbb
 ccccc
 """
 
-print(str1)
-print(str1[::-1])
-print(str1.lower())
-print(str1.upper())
-print(str1.strip())
-print(str1.find("h"))
-print("=" * 100)
-print(str2)
 print(str3)
-print(str4)
+
+print(str1[::-1])
+print(str1[0:3])
+print(str1.strip())
+print(str1.upper())
+print(len(str1))
+print(str1.find("ll"))
+print(str1.replace("l", "L"))
+print("%d - %s"%(0, "aaa"))
