@@ -2,10 +2,11 @@
 
 """
 __slots__
-__slots__里定义里的，不能和属性冲突
+    __slots__里定义里的，不能和属性冲突
+    只能访问和设置__slots__里定义的属性
 """
 class Obj1:
-    __slots__ = ("name")
+    __slots__ = ("name", )
 
 obj = Obj1()
 obj.name = "ken"

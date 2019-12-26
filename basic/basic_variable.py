@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+变量查找规则
+LEGB规则
+local => enclosing function => globals => builtins
+"""
+
 
 """
 作用域是局部的
@@ -16,8 +22,8 @@ def hello1():
 
 hello1()
 print(num1)
-print("=" * 100)
 
+print("=" * 100)
 """
 查看变量类型
 """
@@ -26,3 +32,11 @@ print(type(str1))
 print(type(arr1))
 print(type(dict1))
 print(type(turple1))
+
+print("=" * 100)
+"""
+查看所有局部变量
+查看所有全局变量
+"""
+print(locals())
+print(globals())

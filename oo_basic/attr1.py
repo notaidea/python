@@ -5,16 +5,23 @@ from types import MethodType
 """
 可以动态添加属性和方法
 """
-class Obj1:
+class Person(object):
     name = "peter"
 
-obj = Obj1()
-print(obj.name)
-obj.age = 10
-print(obj.age)
+Person.addr = "深圳";
+
+obj1= Person()
+obj1.age = 10
+
+print(obj1.name)
+print(obj1.age)
+print(obj1.addr)
 
 def run(self):
     print(self)
 
-obj.run = MethodType(run, obj)
-obj.run()
+obj1.run = MethodType(run, obj1)
+obj1.run()
+
+obj2 = Person()
+print(obj2.addr)
