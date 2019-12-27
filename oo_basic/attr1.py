@@ -8,9 +8,10 @@ from types import MethodType
 class Person(object):
     name = "peter"
 
-Person.addr = "深圳";
+#类动态添加属性
+Person.addr = "深圳"
 
-obj1= Person()
+obj1 = Person()
 obj1.age = 10
 
 print(obj1.name)

@@ -6,7 +6,7 @@ python中没有interface这一说法，
 '''
 from abc import ABCMeta, abstractmethod, abstractproperty
 
-class Test(metaclass = ABCMeta):	 
+class Test(metaclass = ABCMeta):
 	@abstractmethod
 	def say(self):
 		pass

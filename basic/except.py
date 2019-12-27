@@ -3,7 +3,7 @@ num = 0
 
 #raise Exception()
  
-try :
+try:
 	num = 10 / 0
 except Exception:
 	print("no 0")
@@ -11,7 +11,7 @@ except Exception:
 print(num)
 
 print("=" * 100)
-try :
+try:
 	num = 10 / 0
 except Exception as e:
 	print(e)

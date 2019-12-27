@@ -12,3 +12,6 @@ class Obj1:
 
 obj = Obj1()
 print(obj.__dir__())
+
+print("=" * 50)
+print(dir(obj))
