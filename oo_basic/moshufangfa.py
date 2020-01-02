@@ -12,7 +12,12 @@ __repr__
 class Obj1(object):
     #构造函数
     def __init__(self):
-        pass
+        print("init......")
+        self.name = "peter"
+        self.age = 10
+
+    def __del__(self):
+        print("destruct......")
 
     def __str__(self):
         return "aaaaa"
@@ -20,5 +25,11 @@ class Obj1(object):
     def __repr__(self):
         return "bbbbb"
 
+    def __getattribute__(self, obj):
+        print("getting attr:")
+        print(obj)
+
 obj = Obj1()
 print(obj)
+obj.name
+obj.age
