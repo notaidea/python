@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+"""
+支持多重继承
+"""
 class Parent1(object):
 	def say(self):
 		print("Parent1")

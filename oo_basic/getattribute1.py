@@ -7,23 +7,19 @@ class Test(object):
 	
 	'''
 	#不能在__getattribute__()再次调用self的属性、方法
-	def __getattribute__(self, obj):
-		if obj.startswith("a"):
-			print(obj)
+	def __getattribute__(self, attrName):
+		if attrName.startswith("a"):
+			print(attrName)
 		else:
 			return self.test
 	'''
-	def __getattribute__(self, obj):
-		if obj.startswith("a"):
-			return "redirect - python"
+	def __getattribute__(self, attrName):
+		if attrName == "subject1":
+			return "redirect - __getattribute__"
 		else:
-			temp = object.__getattribute__(self, obj)
+			temp = object.__getattribute__(self, attrName)
 			return temp
-			
-	def show(self):
-		print("hello,world.")
 
 obj1 = Test("python")
 print(obj1.subject1)
 print(obj1.subject2)
-obj1.show()

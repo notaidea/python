@@ -30,15 +30,29 @@ class Test1(object):
 
 	"""
 	==================================================
+	方法名没规定
+	推荐用del开头
+	==================================================
+	"""
+	def delNum(self):
+		del self.__num
+
+	"""
+	==================================================
 	property(getter, setter)来注册getter、setter
 
 	这是其中一种方法
 	==================================================
 	"""
-	num = property(getNum, setNum)
+	num = property(getNum, setNum, delNum)
 
 #==================================================
 obj1 = Test1()
 print(obj1.num)
+
 obj1.num = 1111
+print(obj1.num)
+
+#删除后，再print就报错了
+del obj1.num
 print(obj1.num)

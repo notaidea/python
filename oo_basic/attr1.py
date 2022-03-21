@@ -3,20 +3,25 @@
 from types import MethodType
 
 """
-可以动态添加属性和方法
+1、定义字段
+2、__init__内动态增加字段
+3、类动态添加属性
 """
 class Person(object):
+    #定义字段
     name = "peter"
 
-#类动态添加属性
-Person.addr = "深圳"
+    def __init__(self, age):
+        self.age = age
 
-obj1 = Person()
-obj1.age = 10
+#类动态添加属性
+Person.school = "深圳中心"
+
+obj1 = Person(10)
 
 print(obj1.name)
 print(obj1.age)
-print(obj1.addr)
+print(obj1.school)
 
 def run(self):
     print(self)
@@ -24,5 +29,5 @@ def run(self):
 obj1.run = MethodType(run, obj1)
 obj1.run()
 
-obj2 = Person()
-print(obj2.addr)
+obj2 = Person(20)
+print(obj2.school)

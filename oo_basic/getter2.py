@@ -28,8 +28,22 @@ class Test2(object):
 	def num(self, num):
 		self.__num = num
 
+	"""
+	==================================================
+	@{x}.deleter来标志为unset
+	==================================================
+	"""
+	@num.deleter
+	def num(self):
+		del self.__num
+
 #==================================================
 obj1 = Test2()
 print(obj1.num)
+
 obj1.num = 2222
+print(obj1.num)
+
+#删除后，再print就报错了
+del obj1.num
 print(obj1.num)
