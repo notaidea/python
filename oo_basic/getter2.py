@@ -6,39 +6,30 @@
 ==================================================
 """
 
-class Test1(object):
+class Test2(object):
 	def __init__(self):
-		self.__num = 111
+		self.__num = 222
 
 	"""
 	==================================================
-	方法名没规定
-	推荐用get开头
+	@property来标志为getter
 	==================================================
 	"""
-	def getNum(self):
+	@property
+	def num(self):
 		return self.__num
 
 	"""
 	==================================================
-	方法名没规定
-	推荐用set开头
+	@{x}.setter来标志为setter
 	==================================================
 	"""
-	def setNum(self, num):
+	@num.setter
+	def num(self, num):
 		self.__num = num
 
-	"""
-	==================================================
-	property(getter, setter)来注册getter、setter
-
-	这是其中一种方法
-	==================================================
-	"""
-	num = property(getNum, setNum)
-
 #==================================================
-obj1 = Test1()
+obj1 = Test2()
 print(obj1.num)
-obj1.num = 1111
+obj1.num = 2222
 print(obj1.num)

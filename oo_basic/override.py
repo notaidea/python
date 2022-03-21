@@ -12,5 +12,13 @@ class Test(object):
 		print("22222")
 		
 obj1 = Test()
-obj1.say(1)
+#obj1.say(1)
 obj1.say(1, 2)
+
+class Test2(Test):
+	def say(self, num, num2):
+		print("Test2 - say")
+
+print("*" * 100)
+obj2 = Test2()
+obj2.say(3, 4)

@@ -3,6 +3,8 @@
 str1 = " hello, "
 str2 = "world"
 str3 = str1 + str2
+
+#多行输入
 str4 = """
 aaaaa
 bbbbb
@@ -10,6 +12,7 @@ ccccc
 """
 
 print(str3)
+print(str4)
 
 print(str1[::-1])
 print(str1[0:3])

@@ -15,7 +15,7 @@ class Test(object):
 	'''
 	def __getattribute__(self, obj):
 		if obj.startswith("a"):
-			return "redirect python"
+			return "redirect - python"
 		else:
 			temp = object.__getattribute__(self, obj)
 			return temp
